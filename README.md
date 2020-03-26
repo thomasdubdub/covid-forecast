@@ -21,6 +21,8 @@ Example: forecast of the number of COVID-19 hospitalizations in French departmen
 Focus on one French department (13 # Bouches-du-Rhône)
 ![historical](13_historical.png)
 
+
+
 ![forecast](13_forecast.png)
 
 
