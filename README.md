@@ -1,6 +1,6 @@
-# COVID-19 forecast in French departments
+# Forecast of COVID-19 deaths and hospitalizations in France (last update: 01/04/2020)
 
-Visualize a forecast (linear growth by department) of the evolution of the COVID-19 hospitalizations in French departments
+Visualize a forecast of the evolution of the COVID-19 hospitalizations in a given French department + forecast of the total number of deaths
 
 COVID-19 and geographical data come from the [French open data portal](https://www.data.gouv.fr/fr/)
 
@@ -8,28 +8,25 @@ Data are stored as [pandas](https://pandas.pydata.org/) / [GeoPandas](http://geo
 
 Forecast of time series (number of hospitalizations per department) is realized with [Facebook Prophet](https://facebook.github.io/prophet/)
 
-Graphical visualization is realized with [contextily](https://github.com/darribas/contextily), PIL and matplotlib
+Graphical visualization is realized with matplotlib
 
 
 
 
-Example: forecast of the number of COVID-19 hospitalizations in French departments in the next week (historical data to 25/03/20)
+Example: forecast of the number of COVID-19 hospitalizations in a French department
 
-![covid](forecastcovid.gif)
-
-
-Focus on one French department (13 # Bouches-du-Rhône)
-![historical](13_historical.png)
+![dep](31_forecast.png)
 
 
+Example: forecast of the total number of deaths in France
 
-![forecast](13_forecast.png)
-
+![death](death_forecast.png)
 
 
 ## Running the tests
 
-Run the demo-forecast notebook to see how to build dataframes and visualize forecasts on maps. Run the demo-13 notebook to see how to analyze data and forecast on a specific department.
+Run the demo-hosp_dept notebook to build the forecast of hospitalizations on a specific department. Run the demo-death notebook to build a forecast of deaths in France.
+
 
 ## Built With
 
@@ -39,7 +36,6 @@ Run the demo-forecast notebook to see how to build dataframes and visualize fore
 
 * [GeoPandas](http://geopandas.org/) - GeoPandas is an open source project which extends the datatypes used by pandas to allow spatial operations on geometric types. 
 
-* [contextily](https://github.com/darribas/contextily) - Context geo-tiles in Python
 
 
 ## Authors
