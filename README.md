@@ -1,4 +1,4 @@
-# Forecast of COVID-19 deaths and hospitalizations in France (last update: 02/04/2020)
+# Forecast of COVID-19 deaths and hospitalizations in France (last update: 03/04/2020)
 
 Visualize a forecast of the evolution of the COVID-19 hospitalizations in a given French department + forecast of the total number of deaths
 
@@ -18,7 +18,7 @@ Example: forecast of the number of COVID-19 hospitalizations in a French departm
 ![dep](31_forecast.png)
 
 
-Example: forecast of the total number of deaths in France
+Example: forecast of the total number of (new) deaths in France
 
 ![death](death_forecast.png)
 
